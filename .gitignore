@@ -162,3 +162,5 @@ cython_debug/
 index/
 
 MRCONSO.RRF
+
+.DS_Store
