@@ -1,0 +1,30 @@
+bupropion HCl 	 bupropion  	 {'Bupropion Hydrochloride': 61.111111111111114, 'Bupropion Hydrochloride, (+-)-Isomer': 44.89795918367348} 
+Bupropion HCl 	 Bupropion H 	 {'Bupropion Hydrochloride': 66.66666666666667, 'Bupropion Hydrochloride, (+-)-Isomer': 48.97959183673469} 
+amphotercin B 	 amphoter 	 {'Amphotericin B': 88.88888888888889, 'Amphotericin': 80.0} 
+tobramicyn 	 tobram 	 {'Tobramycin': 70.0, 'Sulfate, Tobramycin': 55.172413793103445} 
+PILO 	 PIL 	 {'Pilot': 22.22222222222222} 
+oestrogens 	 oestrogen 	 {'Phytoestrogens': 83.33333333333334, 'Phytoestrogen': 78.26086956521739} 
+CLZ 	 CL 	 {'NCL6': 57.14285714285714, 'NCL-6': 50.0} 
+QTP 	 QT 	 {'KVLQT1 Protein': 35.29411764705882, 'KvLQT Potassium Channels': 22.22222222222222} 
+alpha2-adrenergic receptor agonist 	 alpha2- 	 {'alpha2-Adrenergic Antagonists': 79.36507936507937, 'Adrenergic alpha2-Antagonists': 60.31746031746032} 
+Tri-ortho-tolyl phosphate 	 Tri- 	 {'Tri-allate': 51.42857142857142, 'Tri-phosphoinositide Phosphodiesterase': 50.79365079365079} 
+0,0'-diisopropyl phosphorofluoridate 	 0,0 	 {'NSC180,024': 13.043478260869568} 
+organophosphorous 	 organophosphor 	 {'Organophosphorus Compounds': 74.4186046511628} 
+adenosine A2A/A1 receptor antagonist 	 adenosine  	 {'Adenosine A2A Receptor Antagonists': 85.71428571428572, 'Adenosine A1 Receptor Antagonists': 84.05797101449275} 
+adenosine A(2A)/A(1) receptor antagonist 	 adenosine  	 {'Adenosine A2A Receptor Antagonists': 81.08108108108108, 'Adenosine A1 Receptor Antagonists': 79.45205479452055} 
+pegylated interferon alpha-2b 	 pegy 	 {'Dopegyt': 0.0} 
+NH4Ac 	 NH4 	 {'Struvite (H3PO4-NH4-Mg (1:1:1))': 0.0} 
+nondepolarizing neuromuscular blocking agents 	 RP 6 	 {'MRP 6 Protein': 0.0} 
+GYKI-41 099 	 NH4 	 {'Struvite (H3PO4-NH4-Mg (1:1:1))': 0.0} 
+GYKI-41 900 	 Unfractionated  	 {'Unfractionated Heparin': 0.0} 
+NH4CL 	 Abbott-5 	 {'Abbott-50192': 0.0} 
+NaHCO3 	 dosulepin 	 {'Dosulepin': 0.0} 
+Nitrolingual 	 5-hydroxytryptamine 	 {'N,N-Dimethyl-5-hydroxytryptamine': 0.0} 
+3alpha-tropanyl-2-(4-chorophenoxy)butyrate 	 parachloro 	 {'Parachloroamphetamine': 0.0} 
+5-hydroxytryptaminergic agonists 	 ethyl-alpha- 	 {'N-Ethyl-alpha-(hydroxymethyl)-N-(4-pyridinylmethyl)benzeneacetamide': 0.0} 
+Hibiscus rosa sinensis 	 gamma-c 	 {'6-Perdeoxy-6-per(2-carboxyethyl)thio-gamma-cyclodextrin sodium salt': 0.0} 
+5 flourouracil 	 CHC 	 {'NCHCT': 0.0} 
+predobutamine 	 KF1 	 {'SKF104864A': 0.0} 
+alpha-benzene hexachloride 	 epipregnanolone 	 {'Epipregnanolone': 0.0} 
+ethyl-alpha-p-chlorophenoxyisobutyrate 	 epipregnanolone 	 {'Epipregnanolone': 0.0} 
+gamma-cholesteryloxybutyric acid 	 sodium 2- 	 {'Sodium 2-Mercaptoethanesulphonate': 0.0} 
