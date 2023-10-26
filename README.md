@@ -8,8 +8,8 @@ Creates the index from the given MeSH csv file.
 
 ### candidate_generator.py
 Returns the list of matches given the search term.
-```python3 
-python3 candidate_generator.py -i chemicals_index2014 lithium
+```
+python3 candidate_generator.py -i chemicals_index2014 chemical_name
 ```
 
 ### mesh_search.py
