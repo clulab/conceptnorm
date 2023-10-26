@@ -8,6 +8,9 @@ Creates the index from the given MeSH csv file.
 
 ### candidate_generator.py
 Returns the list of matches given the search term.
+```python3 
+python3 candidate_generator.py -i chemicals_index2014 lithium
+```
 
 ### mesh_search.py
 Uses the index to search for all the terms in the annotated data, creates two files: a text file and an excel file detailing all the correct and incorrect matches.
