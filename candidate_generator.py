@@ -5,7 +5,7 @@ import argparse
 def args():
     parser = argparse.ArgumentParser()
     parser.add_argument("chemical_name", help="name of chemical to search for")
-    parser.add_argument("-i", "--index_dir", help="path to index directory", default="chemicals_index2017")
+    parser.add_argument("-i", "--index_dir", help="path to index directory", default="chemicals_index2014")
     args = parser.parse_args()
     return args
 
