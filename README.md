@@ -4,7 +4,7 @@
 ### MeSH2014.csv
 Mesh2014.csv is a file created by parsing and combining desc2014.xml and supp2014.xml downloaded from the official MeSH website. 
 ### chemicals_annotated.csv
-chemicals_annotated.csv is a file created by parsing CDR_DevelopmentSet.BioC.xml from the BC5CDR corpus.
+chemicals_annotated.csv is a file created by parsing CDR_TrainingSet.BioC.xml from the BC5CDR corpus.
 
 ## Using the Index
 Unzip the chemicals_index2014.zip file to access the index.

@@ -1,296 +1,342 @@
-Number of incorrect matches: 40
-Number of wrong matches: 146
-Number of no matches: 97
-Number of correct matches: 917
+Number of incorrect matches: 46
+Number of wrong matches: 163
+Number of no matches: 120
+Number of correct matches: 883
 
 Incorrect Matches:
-d-amphetamine/D003913 --> Amphetamine/D000661 (3)
-penicillin/D010406 --> Penicillin G/D010400 (2)
-Penicillin/D010406 --> Penicillin G/D010400 (2)
-citrate/C102006 --> Citrate/D019343 (41)
-alcohol/D000431 --> Alcohol Dehydrogenase/D000426 (11)
-6-hydroxydopamine/D016627 --> Hydroxydopamine/D006892 (1)
 angiotensin/D000809 --> Angiotensin I/D000803 (2)
-fat/D004041 --> Fat Pad/D000273 (7)
-Vitamin C/D001205 --> vitamin A - vitamin E/C048974 (5)
-Vitamin E/D014810 --> vitamin A - vitamin E/C048974 (21)
-ergot/D004876 --> Ergot Fungus/D002967 (2)
-5,7-dihydroxytryptamine/D015116 --> 5,6-Dihydroxytryptamine/D015115 (2)
-coumarin/C030123 --> 7-D-4-M-coumarin/C411868 (2)
-CSA/D016572 --> CSA-I/C075400 (1)
-15-F(2t)-isoprostane/C075750 --> 15-A(2t)-isoprostane/C117466 (1)
-15-F(2t)-IsoP/C075750 --> 15-A(2t)-IsoP/C117466 (1)
-benzamide/C037689 --> O-benzamide/C114364 (2)
 vitamin D/D014807 --> vitamin A - vitamin E/C048974 (20)
-AZT/D015215 --> C-AZT/C064770 (2)
-CsA/D016572 --> CSA-I/C075400 (1)
-L-dopa/D007980 --> Dopa/D004295 (1)
-thyroxine/D013974 --> D-Thyroxine/D003918 (2)
-13-cis-retinoic acid/D015474 --> 9-cis,13-cis-retinoic acid/C105492 (1)
-l-dopa/D007980 --> Dopa/D004295 (1)
+vitamin K/D014812 --> vitamin A - vitamin E/C048974 (22)
+CGRP/D015740 --> CGRP (1-7)/C118482 (1)
+citrate/C102006 --> Citrate/D019343 (41)
+4-diphenylacetoxy-N-methylpiperidine/C042375 --> 4-diphenylacetoxy-N-methylpiperidine methobromide/C519669 (1)
 4-DAMP/C042375 --> 2,4-DAMP/C016358 (1)
-digitalis/D004071 --> Digitalis/D004070 (1)
-Renografin 76%/C027278 --> Renografin M-76/D003974 (2)
+ALCOHOL/D000431 --> Alcohol Dehydrogenase/D000426 (11)
+3-methyladenine/C025946 --> 9-methyladenine/C013115 (7)
+methyl dopa/D008750 --> 3-O-methyl-DOPA/C420684 (2)
+L-dopa/D007980 --> Dopa/D004295 (1)
+L-Dopa/D007980 --> Dopa/D004295 (1)
+penicillin/D010406 --> Penicillin G/D010400 (2)
+PG-9/C087567 --> PG(6)E/C117159 (29)
+alcohol/D000431 --> Alcohol Dehydrogenase/D000426 (11)
+KCl/C522374 --> KCl cotransporter/C058648 (1)
 vitamin E/D014810 --> vitamin A - vitamin E/C048974 (21)
-vitamin C/D001205 --> vitamin A - vitamin E/C048974 (5)
-L-DOPA/D007980 --> Dopa/D004295 (1)
-chloride/D002712 --> Acetylcholine Chloride/D000109 (623)
-L-NAME/D019331 --> Name/D009275 (1)
-adenosine diphosphate/D000244 --> adenosine 3'-diphosphate 5'-diphosphate/C017990 (1)
-L-dihydroxyphenylalanine/D007980 --> Dihydroxyphenylalanine/D004295 (3)
-L-3,4-dihydroxyphenylalanine/D007980 --> Dihydroxyphenylalanine/D004295 (3)
-T4/D013974 --> T4-5'-Deiodinase/D007453 (42)
-T3/D014284 --> T3 Receptor/D011988 (32)
+pegylated interferon/C417083 --> pegylated interferon SA/C571406 (1)
+IVA/C064227 --> MPS IVA/D009085 (1)
 oxytocin/D010121 --> Oxytocin (7-9)/D009075 (1)
-Oxytocin/D010121 --> Oxytocin (7-9)/D009075 (1)
-androgen/D000728 --> Androgen Antagonists/D000726 (2)
+6-hydroxydopamine/D016627 --> Hydroxydopamine/D006892 (1)
+alpha-T/D024502 --> alpha,alpha,alpha-trifluorotoluene/C513519 (494)
+L-NAME/D019331 --> Name/D009275 (1)
+Grape seed extract/C511402 --> Grape Seed Extract/D056604 (3)
+p-coumaric acid/C032171 --> 3-coumaric acid/C043332 (2)
+amyloid beta peptide(1-42)/C544092 --> beta-amyloid peptide (2-42)/C442220 (7)
+uridine diphosphate/D014530 --> uridine 3'-diphosphate 5'-diphosphate/C025329 (1)
+Thyroxine/D013974 --> D-Thyroxine/D003918 (2)
+thyroxine/D013974 --> D-Thyroxine/D003918 (2)
+d-amphetamine/D003913 --> Amphetamine/D000661 (3)
+8-aminoquinoline/C080436 --> 6-aminoquinoline/C032928 (3)
+L-DOPA/D007980 --> Dopa/D004295 (1)
+AZT/D015215 --> C-AZT/C064770 (2)
+Angiotensin/D000809 --> Angiotensin I/D000803 (2)
+cephalosporin/D002511 --> cephalosporin C/C025163 (2)
+Cephalosporin/D002511 --> cephalosporin C/C025163 (2)
+CsA/D016572 --> CSA-I/C075400 (1)
+salvianolic acid A/C066201 --> salvianolic acid K/C111703 (1)
+VPU/C108761 --> Genes, vpu/D016338 (4)
+NaCl/D012965 --> NaCl-KCl Cotransporter/D028021 (3)
+salt/D017673 --> Reinecke Salt, ammonium salt/C001818 (6)
+VP/D005047 --> VP(7)/D015678 (6)
+Zyban/D016642 --> Zyban fungicide/C112518 (1)
+ddI/D016049 --> 1,4-DDI-X/C467078 (1)
+beta-carboline/C036150 --> 9-hydroxymethyl-beta-carboline/C039095 (20)
+Rg1/C035054 --> rubiwettin RG1/C064362 (1)
 
 
 Wrong Matches:
-VPA/D014635 --> 4-yn-VPA/C071194
-NH3/D000641 --> Co(3)-NH3(6)/C030862
-DA/D004298 --> 3'-F-dA/C062976
-ISO/D007545 --> iso-H-7/C080501
-RA/C009166 --> RA-X/C079025
-CO2/D002245 --> Lasers, CO2/D054020
-METH/D008694 --> METH hydroxylamine/C117950
-LTG/C047781 --> LTG(4)/C057290
-anthracycline/D018943 --> 4-demethoxy anthracycline/C500024
-steroid/D013256 --> steroid U/C033208
-corticosteroid/D000305 --> Receptors, Corticosteroid/D011987
-oral contraceptive/D003276 --> Pearl Oral Contraceptive/D019304
-progestogens/D011374 --> Progestogens/D011372
-oestrogen/D004967 --> receptor, oestrogen receptor-related beta/C107914
-BPT/C048081 --> BPT-hexadecane/C118774
-cAMP/D000242 --> Camp, Concentration/D003209
-Li/D008094 --> LI-F03a/C106437
-DVP/D014635 --> DVP (cisplatin)/C037510
-organophosphorus/D010755 --> Organophosphorus Compounds/D009943
-prostaglandin/D011453 --> Prostaglandin I(2)/D011464
-catecholamine/D002395 --> Catecholamine Sulfotransferase B/D015239
-KCl/D011189 --> KCl cotransporter/C058648
-CM/D003287 --> CM-C-G/C091649
-Na/D012964 --> NA-5/C043348
-Cr/D003404 --> CR 6/C120400
-amino acid/D000596 --> 1-amino-3-amino-oxybutyric acid/C001926
-NTG/D005996 --> NTG-GMA/C039790
-polyphenol/D059808 --> Polyphenol Oxidase/D004156
-ISPH/D007545 --> IspH protein, N benthamiana/C488495
-TTC/C009591 --> TTC 909/C068518
-ACh/D000109 --> Receptors, ACh/D011950
-4',7-dihydroxy-isoflavone/C004742 --> 7,2'-dihydroxy-6'',6''-dimethylpyrano-(2'',3''-4',3')isoflavone/C437403
-macrolide/D018942 --> macrolide 2'-kinase/C061369
-NO/D009569 --> NO-1-B/C405005
-GTN/D005996 --> GTN reductase/C077366
-EACA/D015119 --> H-EACA-L-Nle-OH/C103892
-salicylate/D012459 --> Sodium Salicylate/D012980
-5,7-DHT/D015116 --> 3,3''-DHT/C478856
-STX/D012530 --> Stx Protein/D022621
-PAN/D011692 --> Pan Quimica/D000493
-E2/D004958 --> E2-3,4-Q/C500988
-DXR/D004317 --> 4'-Epi-DXR/D015251
-bile acid/D001647 --> bile acid sulfates/C020980
-azole/D001393 --> TL-azole/D013444
-aminoglycoside/D000617 --> 6'-aminoglycoside acetyltransferase-2''-aminoglycoside phosphotransferase/C108453
-PGs/D011453 --> PGS cpd/C469892
-PTZ/D010433 --> Ptz-dU cpd/C511996
-LPO/D008054 --> NFA-LPO/C084843
-nitrate/D009566 --> Cellulose Nitrate/D003101
-CQ/D002738 --> (RuCl2(CQ))2/C098651
-amine/D000588 --> 2,4-D amine/C037991
-PG/D011453 --> PG(6)E/C117159
-Thiazide/D049971 --> Diuretics, Thiazide/D049993
-thiazide/D049971 --> Diuretics, Thiazide/D049993
-HCTC/D006852 --> HCTC/C058403
-hepatitis B e antigen/D006513 --> Hepatitis C Antigen/D018936
-pg/D011453 --> PG(6)E/C117159
-Ca/D002118 --> B-2-CA/C113592
-UH/D006493 --> UH 301/C064282
-AmB/D000666 --> L-AmB/C068538
-KA/D007608 --> Ka-2547/C027500
-metformin hydrochloride/D008687 --> rosiglitazone maleate-metformin hydrochloride combination/C471074
-Metformin hydrochloride/D008687 --> rosiglitazone maleate-metformin hydrochloride combination/C471074
-RAPA/D020123 --> Brassica rapa/D029741
-Tac/D016559 --> F-TAC/C090337
-ADR/D004317 --> ADR-529/D064730
-ammonium salt/D064751 --> Reinecke Salt, ammonium salt/C001818
-UFH/D006493 --> UFH-counterion 7/C078918
-PTU/D011441 --> A-2-PTU/C479633
 Sch/D013390 --> Sch-P/C027467
-DX/D004317 --> DX-17P/C059544
-TPP/D013835 --> OHET-TPP/C047467
-PHZ/C030299 --> pHZ-67 protein, human/C107961
-NE/D009638 --> 3-H-7-M-NE/C500507
-OCT/C051883 --> OCT Tomography/D041623
+Li/D008094 --> LI-F03a/C106437
+aluminium/-1 --> calcium aluminium phosphate/C088064
+CAA/C004656 --> Caa/C564321
+Angiotension II/D000804 --> 4-Phe-angiotension II/C097744
+PO2/C093415 --> (T(PS2)T(PO2))7T/C406744
+CBZ/D002220 --> CBZ-diol/C004822
+GSH/D005978 --> S-Nitroso-GSH/D026422
+pentose phosphate/D010428 --> Pentose Phosphate Pathway/D010427
+triazolo/D014229 --> 1,2,4-triazolo(4,3-a)quinoxaline/C469661
+steroid/D013256 --> steroid U/C033208
+DES/D004054 --> 3,3'-DES/C028517
+PAN/D011692 --> Pan Quimica/D000493
+TMP/D014294 --> TMP/D013938
+beta lactam/D047090 --> beta-Lactam Resistance/D018440
+TET/C009438 --> 2,3,3 TET/C064279
+FAN/C060802 --> FAN regimen/C110072
+EP/D004837 --> 2-A-1-EP/C121112
+ASA/D001241 --> ASA-6/C046857
+VNB/C030852 --> 5,2-VNB/C108263
+GEM/C056507 --> gem-dihalovinylaniline/C527428
 phosphate/D010710 --> adenosine 3'-phosphate-5'-phosphate/C010840
-PPA/D010665 --> PPA Syndrome/D057178
-cis-RA/D015474 --> Glc-9-cis-RA/C091309
-STZ/D013311 --> EG-STZ/C060308
-LiCl/D018021 --> (tmp)(2)Zn x 2 MgCl(2) x 2 LiCl/C524732
-hepatitis B surface antigen and e antigen/D006514|D006513 --> Hepatitis B Surface Antigen/D006514
-HCBD/C001335 --> HCBD-NAC/C049739
+LA/D019344 --> C-LA(n)/C464654
+progestagen/D011372 --> progestagen I/C049594
+oral-contraceptive/D003276 --> Pearl Oral Contraceptive/D019304
+oral contraceptive/D003276 --> Pearl Oral Contraceptive/D019304
+NO/D009569 --> NO-1-B/C405005
+urotensin-II/D014579 --> urotensin II/C029677
+Urotensin-II/D014579 --> urotensin II/C029677
+U-II/D014579 --> I-3, II-3, I-5, II-5, I-7, II-7, I-4', II-4'-octahydroxy (I-2', II-2') biflavone/C486817
+SRL/D020123 --> SRL 172/C451081
 CC/D002996 --> CC-CKR5/D019713
-PB/D010634 --> N-(T-A-X)PB/C443423
-NSAID/D000894 --> Asthma, NSAID-induced/D055963
-AAP/D000082 --> 9-AAP/C013398
-NAA/D009536 --> 1,4,5,8-NAA/C110450
-PCC/C025667 --> PCC Deficiency/D056693
-AIDA/C095756 --> Hb Aida/C033430
-MDA/D008315 --> 4,4'-MDA/C009505
-CDDP/D002945 --> 1-OHP-CDDP/C503558
-prostaglandin E/D011458 --> Prostaglandin I(2)/D011464
-PGE(2)/D015232 --> PGE/D011458
-Cl/D002713 --> Cl-P+-Cl/C119873
-DOX/D004317 --> Dox-D-penetratin/C407034
-HAL/D006220 --> HAL Deficiency/C538320
+H2O/D014867 --> KCoPWO-H2O/C087353
+SNP/D009599 --> SNP nonapeptide/C063820
+Hg/D008628 --> HG-Factor/D005934
+ZDV/D015215 --> ZDV-CDS/C056534
+fluoroacetate/D005463 --> fluoroacetate dehalogenase/C023098
+beta-lactam/D047090 --> beta-Lactam Resistance/D018440
+AX/D000658 --> AX 300/C029349
+PG/D010400 --> PG(6)E/C117159
+AMP/D000667 --> AMP/D000249
+BPO/-1 --> BPO-BGG/C081938
+heparan sulphate/D006497 --> heparan sulphate endoglycosidase/C038253
+Heparan sulphate/D006497 --> heparan sulphate endoglycosidase/C038253
+glycosaminoglycan/D006025 --> glycosaminoglycan polysulfate/C013786
+NG/D008466 --> Ng-CAM/D019062
+MTX/D008727 --> MTX-F/C036539
+CY/D003520 --> CY-CY COMPLEX/C031949
+MFL regimen/C085788 --> MFL regimen/C049341
+anthracycline/D018943 --> 4-demethoxy anthracycline/C500024
+AVP/D001127 --> A-5-AVP/C029455
+LiCl/D018021 --> (tmp)(2)Zn x 2 MgCl(2) x 2 LiCl/C524732
+OC/D003276 --> 4-OC-PMA/C506240
+oligodeoxynucleotide/D009838 --> DV056 oligodeoxynucleotide/C586407
+DTG/C050232 --> N(3)DTG/C055550
+ACh/D000109 --> Receptors, ACh/D011950
 CPA/D017373 --> d(CpA)/C093708
 EE/D004997 --> N-GRP-EE/C060121
-COC/D003277 --> COC-dC/C111700
-MC/D008748 --> MC 1-2/C042726
-PAH/D010130 --> PAH Deficiency/D010661
-5-MDOT/-1 --> 2-MDOT/C038858
-1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea/D008130 --> 2-hydroxy-1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea/C016498
-MA/D008694 --> F-MA/C057525
-alpha-TC/D024502 --> (99m)Tc-alpha-M2/C495943
-DFO/D003676 --> HES-DFO/C068460
-Steroid/D013256 --> steroid U/C033208
-purine/D011687 --> purine/C030985
-nitrite/D009573 --> Amyl Nitrite/D000680
-AG/C004479 --> C-7-AG-D-G/C499899
+LHRH-A/D016729 --> LHRH/D007987
+AmB/D000666 --> L-AmB/C068538
+Organophosphate/D010755 --> Organophosphate Poisoning/D062025
+organophosphorus/D010755 --> Organophosphorus Compounds/D009943
+OP/D010755 --> Fluor-Op/D005469
+OPs/D010755 --> 20-OPS cpd/C508346
+pralidoxime-2-chloride/D011220 --> pralidoxime chloride/C028797
+2PAM/D011220 --> DEP-2PAM/C120291
+N(6)-cyclopentyl adenosine/C048599 --> 2-(3-cyclopentyl-1-propyn-1-yl)adenosine/C075256
+CPA/C048599 --> d(CpA)/C093708
+imidazoline/D048288 --> 2-imidazoline/C017424
+TCR/C007145 --> TcR Genes/D019672
+DCE/D010936 --> DCE-A/C077484
+statin/D019821 --> VE-statin, mouse/C479627
+Statins/D019821 --> Statins, HMG-CoA/D019161
+statins/D019821 --> Statins, HMG-CoA/D019161
+cyclic nucleotide/D009712 --> 2',3'-Cyclic-Nucleotide Phosphodiesterases/D015087
+smoking/D012906 --> Smoking/D012907
+LEV/C026098 --> Lev-8 protein, C elegans/C531558
+VPA/D014635 --> 4-yn-VPA/C071194
+NE/D009638 --> 3-H-7-M-NE/C500507
+green tea/D010936 --> green tea extract AR25/C465546
+ISO/D007545 --> iso-H-7/C080501
+Ca/D002118 --> B-2-CA/C113592
+Na/D012964 --> NA-5/C043348
+Mg/D008274 --> 9-MG/C074582
+IFN/C417083 --> IFN-beta 2/D015850
+PHNO/-1 --> 11C-PHNO/C042631
+organophosphate/D010755 --> Organophosphate Poisoning/D062025
+PPA/D010665 --> PPA Syndrome/D057178
+ADR/D004317 --> ADR-529/D064730
+CCl4/D002251 --> Poisoning, CCl4/D002252
 trifluoroacetyl/D014269 --> trifluoroacetyl-L-phenylalanine/C015556
-CBZ/D002220 --> CBZ-diol/C004822
+Trifluoroacetyl/D014269 --> trifluoroacetyl-L-phenylalanine/C015556
+TAM/D013629 --> 2'-(FP)-TAM/C500289
+amine/D000588 --> 2,4-D amine/C037991
+AAP/D000082 --> 9-AAP/C013398
+AMI/D000638 --> AMI-mixture/C038592
+DOX/D004317 --> Dox-D-penetratin/C407034
+DA/D004298 --> 3'-F-dA/C062976
+Aminoglycoside/D000617 --> 6'-aminoglycoside acetyltransferase-2''-aminoglycoside phosphotransferase/C108453
+aminoglycoside/D000617 --> 6'-aminoglycoside acetyltransferase-2''-aminoglycoside phosphotransferase/C108453
+contrast medium/D003287 --> contrast medium SBPA/C427127
+fluoroquinolone/D024841 --> K-12, fluoroquinolone/C117028
+na/D012964 --> NA-5/C043348
+Srl/D020123 --> SRL 172/C451081
+ACE inhibitor/D000806 --> ACE inhibitor BG-2/C068142
+ARB/D057911 --> E-D-Glu-L-Arb/C435345
+METH/D008694 --> METH hydroxylamine/C117950
+TAC/D016559 --> F-TAC/C090337
+bisphosphonate/D004164 --> 1-Hydroxyethylidene-1,1-Bisphosphonate/D012968
 dex/D003907 --> PIR-DEX/C060128
 Dex/D003907 --> PIR-DEX/C060128
-MP/D008775 --> 4-MP/C077079
-DEN/D004052 --> Den n 1/C432046
-MMC/D016685 --> DMA-MMC/C046941
-S-ketamine/-1 --> Ketamine/D007649
-DFMO/D000518 --> DFMO-PCV protocol/C421909
-PCPA/-1 --> 1-PCPA/C045293
-DM/D003915 --> N-DM-DM/C462059
-tris salt/-1 --> 5-fluorouracil tris salt/C031194
-CS/-1 --> CS-1170/D015311
-CCl4/D002251 --> Poisoning, CCl4/D002252
-CSE/-1 --> CSE M(1)/C079677
-pyrrolidinone/D011760 --> 2-pyrrolidinone/C028537
-Urd/D014529 --> Ce-Urd/C068989
-BAU/C034753 --> BAU nucleoside/C488802
-CP/D003520 --> G-1,2-CP/C015239
-ATRA/D014212 --> Natratoxin, Naja atra/C530778
-mCPP/C015068 --> MCPP protocol/C060062
-ASA/D001241 --> ASA-6/C046857
-thiosulphate/-1 --> 2-N,N-dimethylamino-1-thiosulphate-3-(sodium thiosulphate)propane/C049599
-DPH/D010672 --> DPH-L/C015182
-PREGS/C018370 --> 16-OH-PREGS/C407683
-thiol/D013438 --> Thiol Reagents/D013439
-N-nitroso-N-methylurea/D008770 --> 1-nitroso-1-ethyl-3-methylurea/C061089
-TP/D043343 --> TP-5/D016305
-D-MED/D020927 --> Omnii-Med/D014002
-ALF/D015760 --> ALF protocol/C092461
-beta-lactam/D047090 --> beta-Lactam Resistance/D018440
-CYP/D003520 --> CYP 7/D002790
-FA/D005446 --> Thioredoxin fa/D054479
-fMLP/D009240 --> FMLP Receptor/D044042
-acetylsalicylate/D001241 --> nalbuphine 3-acetylsalicylate/C059165
-ketone/D007659 --> Ketone Reductases/D000429
+simvastatin hydroxy acid/C532833 --> beta-hydroxy simvastatin acid/C483161
+lipopolysaccharide/D008070 --> lipopolysaccharide B/C036757
+Lipopolysaccharide/D008070 --> lipopolysaccharide B/C036757
+hepatitis B virus surface antigen/D006514 --> hepatitis B virus surface antigen P31c/C061034
+MZ/D008874 --> MZ 3-149/C080503
+FL/D005442 --> Fl-Fl-MTEBN/C522844
+aldehyde/D000079 --> A-6-aldehyde/C117331
+TRI/D014299 --> Tri (L)/C047032
+1,2-DMH/D019813 --> DMH/D004111
+hepatitis B virus e antigen/D006513 --> hepatitis B virus X antigen/C057628
+LAM/D019259 --> LAM-1/D019041
+nucleotide/D009711 --> Z-nucleotide/C031143
+O2-/D013481 --> C3-O2/C118683
+Ato/C065179 --> 5,6-epoxy-ATO/C106912
+DFO/D003676 --> HES-DFO/C068460
+D-pen/D010396 --> Or-pen/D010400
+DNR/D003630 --> DNR-GA3/C116339
+erythromycins/D004917 --> Erythromycins, 3-Keto/D048628
+purine/D011687 --> purine/C030985
+PTZ/D010433 --> Ptz-dU cpd/C511996
+PTX/D010852 --> iso-PTX/C095639
+MPA/D015097 --> 5-N-MPA/C084633
+BCC/D001640 --> PDBI-BCC Mn/C543251
+STR/D013331 --> STR amine/C115688
+MAP/D008694 --> 4'-H-3'-MAP/C486633
+PCP/D010622 --> PCP-GABA/D001418
+MMF/-1 --> 2S-MMF/C113397
+THP/C052075 --> THP(B)/C081913
+TRP/D014364 --> Trp-Arg-Trp-Trp-Trp-Trp-NH2/C509690
+3alpha-hydroxy-5alpha-pregnan-20-one/D011280 --> 3alpha-hydroxy-3beta-trifluoromethyl-5alpha-pregnan-20-one/C099326
+3alpha-hydroxy-5beta-pregnan-20-one/D011280 --> 3alpha-hydroxy-5beta-pregnan-20-one hemisuccinate/C108398
+amino acid/D000596 --> 1-amino-3-amino-oxybutyric acid/C001926
+Cr/D002857 --> CR 6/C120400
+thiazide/D049971 --> Diuretics, Thiazide/D049993
+UDCA/D014580 --> UDCA-NAGA/C060582
+CaCl(2)/D002122 --> CACL protein, human/C478391
+catecholamine/D002395 --> Catecholamine Sulfotransferase B/D015239
+PAC/D017239 --> 1-PAC/C054549
+glutamine/D018698 --> Glutamine/D005973
+cholesteryl ester/D002788 --> cholesteryl ester synthetase/C029745
+E2/D004958 --> E2-3,4-Q/C500988
+Catecholamine/D002395 --> Catecholamine Sulfotransferase B/D015239
+CO2/D002245 --> Lasers, CO2/D054020
+AraG/C104457 --> 9-araG-MP/C505040
+CPM/D003520 --> 2-CPM/C076812
+PDTC/C020972 --> PDTC/C066229
+sodium acetylsalicylate/-1 --> sodium acetylsalicylate -sodium bicarbonate - sodium citrate/C002931
+SSRI/D017367 --> SsrI endonuclease/C024406
+nucleoside/D009705 --> Nucleoside Q/D009704
+ginsenoside/D036145 --> ginsenoside B/C093162
+GM/D005839 --> Gm(m)/C012335
+DA/D018491 --> 3'-F-dA/C062976
 
 
 No Matches:
-bupropion HCl/D016642
-Bupropion HCl/D016642
-amphotercin B/D000666
-tobramicyn/D014031
-PILO/D010862
-oestrogens/D004967
-CLZ/C045645
-QTP/C069541
-alpha2-adrenergic receptor agonist/D058647
-Tri-ortho-tolyl phosphate/C025541
-0,0'-diisopropyl phosphorofluoridate/D007531
-organophosphorous/D010755
-adenosine A2A/A1 receptor antagonist/D058915
-adenosine A(2A)/A(1) receptor antagonist/D058915
-pegylated interferon alpha-2b/C417083
-NH4Ac/C018824
+hexafluorodiethyl ether/D005481
+HFDE/D005481
+Actomycin-D/D003609
+N-[4-(5-nitro-2-furyl)-2-thiazolyl]-formamide/D005200
+uric acid salts/D014527|D012492
+phophorylcreatine/D010725
+bisbenzylisoquinoline/D044182
+gamma-carboxylated/D015055
+SSRIs/D017367
+5-hydroxytriptamine/D012701
+loop diuretic/D049994
+BZDs/D001569
+3MA/C025946
 K/D011188
-6-chloro-7,8-dihydroxy-3-allyl-1-phenyl-2,3,4,5-tetrahydro-1H-3-benzaze pine hydrobromide/C071262
-[1R, 3S] 3-[1'-admantyl]-1-aminomethyl-3,4-dihydro-5,6-dihydroxy-1H-2-benzo pyran hydrochloride/C079415
-[-]-[5aR,11bS]-4,5,5a,6,7,11b-hexahydro-2-propyl-3-thia-5-+ ++azacyclopent-1- ena[c]phenathrene-9-10-diol/C095427
-[4aR-trans]-4,4a,5,6,7,8,8a,9-o-dihydro-5n-propyl-2H-pyrazo lo-3-4-quinoline hydrochloride/C416545
-NIMO/D009553
-triphenyl tetrazolium chloride/C009591
-amphothericin B/D000666
-pentetrazol/D010433
-fluorthyl/D005481
-lipid hydroperoxides/D008054
-2,4-diene-VPA/C556631
-beta-adrenergic blocking drugs/D000319
-N-acetyl serotonin/C006389
-calcium carbon-ate/D002119
-nondepolarizing neuromuscular blocking agents/D003473
-ND-NMBA/D003473
-ND-NMBAs/D003473
-prostaglandin (PG) E2/D015232
-RP 67,580/C071693
-SR 48,968/C073839
-prostaglandin D2, E2, or F2 alpha/D015230|D015232|D015237
-Rosen's T5 or T10 protocol/C053519
-GYKI-41 099/C025725
-oral contraception/D003276
-NH4CL/D000643
-Unfractionated heparin sodium/D006493
-iodine-125-metaiodobenzylguanidine/D019797
-Radiolabeled metaiodobenzylguanidine/D019797
-Abbott-53693/C056299
+Antituberculosis/D000995
+neurotensin type-1 receptor antagonist/C079087
+sulfonylureas/D013453
+sodium pentothal/D013874
+N  omercazole/D002231
+Basd  ne/C019269
+cisplatinum/D002945
+3alpha-tropyl 2-(p-bromophenyl)propionate/C087567
+angiotensin-converting enzyme (ACE) inhibitor/D000806
+Serotonergic antidepressants/D018490
+serotonergic antidepressants/D018490
+BD1063/C093337
+E4031/C063968
+tincture of Crataegus/C007145
+Tincture of Crataegus/C007145
+alcoholic extract of the berries of hawthorn/C007145
+Crataegus oxycantha/C007145
+extract of Daucus carota seeds/D010936
+Daucus carota extract/D010936
+estradiol- and testosterone esters/C032109
+pegylated interferon (IFN) alpha-2b/C417083
+pegylated IFN alpha-2b/C417083
+radiocalcium/D002132
+ifosfamide, vincristine, and dactinomycin/C064227
+methylxanthines/C008514
+pentoxyifylline/D010431
+cis-platin/D002945
+N, N'-diisopropylphosphorodiamidofluoridate/C005238
+isoproterenols/D007545
+CFCs/D017402
+1-chloro-1,2,2,2-tetrafluoroethane/C072959
+1-bromo-1-chloro-2,2,2-trifluoroethane/D006221
+HCFCs 123 and 124/C067411|C072959
+HCFCs 123/C067411
+HCFCs 124/C072959
+fenfluramines/D005277
+heroine/D003932
+alpha-TAc/D024502
+IFX/D007069
+GVG/D020888
+sirolmus/D020123
+angiotensin-releasing blocker/D057911
+ACEi/D000806
+N-pyrimidinyl-2-phenoxyacetamides/D010642
+N-pyrimidinyl-2-phenoxyacetamide/D010642
+simvastatin 10 mg-ezetimibe 40 mg/C492458
+Simvastatinezetimibe/C492458
+simvastatinezetimibe/C492458
+methamphetamines/D008694
+HBs Ag/D006514
+Midazolan/D008874
+metamphetamine/D008694
+hydrogen cyanamide/D003484
+Hydrogen cyanamide/D003484
+Dormex/D003484
+8-[(4-amino-l-methylbutyl)amino]- 5-(l-hexyloxy)-6-methoxy-4-methylquinoline/C068820
+combination of amoxicillin and clavulanic acid/D019980
+5-AzC/D001374
+[3H]-5-azadeoxycytidine/C014347
+Tc99m-Sestamibi/D017256
+aponidine hydrochloride/C016986
+Mexitil-Perlongets/D008801
+desipramine HCl/D003891
+cinacalcet HCl/C476217
+angiotensin converting enzyme (ACE) inhibitors/D000806
+halogenated hydroxyquinolines/D006912
+tAMCA/D014148
+Nitrofurantoins/D009582
+nitrofurantoins/D009582
+tetrahydropyranyladriamycinol/C027260
+gamma-HCH/D001556
+3H-TBOB/C046308
+t-butyl bicyclo-orthobenzoate/C046308
+9-[[2-methoxy-4-[(methylsulphonyl)amino]phenyl]amino] -N,5-dimethyl- 4-acridinecarboxamide/C042315
+5 - [2- ( 4- ( 3 - fluorobenzylidene) piperidin-1-yl) ethyl] - 4 -(4-fluorophenyl) thiazole-2-carboxamide/C121249
+RAMH/C069357
+5,5-dimethyl-3-(3-fluorophenyl)-4-(4-methylsulphonyl) phenyl-2(5H)-furanon/C106876
+aceto-acetate/C016635
+2-chloroprocaine-CE/C004616
+L-alpha-glyceryl-phosphorylcholine/D005997
+L-alpha-GFC/D005997
+BE/C005618
+3SR,4aRS,6SR,8aRS-6-[phosphonomethyl]decahydr oisoquinoline-3- carboxylic acid/C070935
 CaCl2/D002122
-NaHCO3/D017693
-crocins/C029036
-Sodium thiopenthal/D013874
-dosulepine hydrochloride/D004308
-nonsteroidal anti-inflammatory drugs/D000894
-IVMP/D008775
-nicotinic acid amide/D009536
-prothrombin complex concentrate/C025667
-T/D013739
-COCs/D003277
-puromycin amino-nucleoside/D011692
-Diabenese/D002747
-L-DOPA/benserazide/C005177
-3 alpha-hydroxy pregnane-20-ones/D011374
-3 alpha-hydroxy pregnane-21-diol-20-ones/D003900
-N10-propargyl-5,8-dideazafolic acid/C031662
-procyclindine/D011352
-IFS/D007069
-apomophine/D001058
-Nitrolingual/D005996
-M/D008775
-T/D014221
-antipurine/D000983
-trans-3,4-dichloro-N-methyl-N[2-(1-pyrrolidinyl) cyclohexyl]benzeneactemide/D019900
-[D-Pen2.5]-enkephalin/D020881
-[D-Ser2]-[Leu]enkephalin-Thr/C034318
 H/D006859
-3alpha-tropanyl-2-(4-chorophenoxy)butyrate/C107044
-5-hydroxytryptaminergic agonists/D058825
-Hibiscus rosa sinensis/D010936
-5 flourouracil/D005472
-atorva/C065179
-Atorva/C065179
-Fujimycine/D016559
-P/D010695
-TXA/D014148
-alpha-benzene hexachloride/D001556
-ethyl-alpha-p-chlorophenoxyisobutyrate/C012282
-gamma-cholesteryloxybutyric acid/C103872
-CHCl3/D002725
-E/D017308
-KF17837/C081198
-tri-iodo-thyronine/D014284
-pregnenolone sulphate/C018370
-Pregnenolone sulphate/C018370
-epipregnanolone ([3beta-hydroxy-5beta-pregnan-20-one] sulphate/C018370
-epipregnanolone sulphate/C018370
-sodium 2-mercaptoethane sulphonate/D015080
-IF/D007069
-Ro15-1788/D005442
+[3H]-l-arginine/D001120
+[3H]-L-arginine/D001120
+carbamylcholin/D002217
+vinca alkaloid/D014748
+des Arg10 HOE 140/C078665
+des-Arg10HOE 140/C078665
+pegylated interferon alpha 2a/C100416
+3 alpha-tropyl 2-(p-bromophenyl)propionate/C087567
+gamma-aminobutyric acidB/D005680
+3-aminopropyl-diethoxy-methyl-phosphinic acid/C066430
+5-hydroxytryptamine4/D012701
+5-hydroxytryptamin1A/D012701
+p-choloroaniline/C004658
+propylthio- uracil/D011441
+pentylenetetrezol/D010433
+p-chlorophenylalamine/D010134
+organophosphorus (OP) poisons/D009943
+OP compound/D009943
+selective serotonin reuptake inhibitor/D017367
+lamivudin/D019259
+HVA/D006719
 
