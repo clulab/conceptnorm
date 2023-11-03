@@ -17,19 +17,18 @@ def args():
 def add_documents_to_index(index, csv_file):
     # Open the index writer
     writer = index.writer()
-    
+
     # Open the CSV file and index its contents
     with open(csv_file, "r", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             writer.add_document(name=row["Name"], id=row["ID"])
-    
+
     # Commit the changes to the index
     writer.commit()
 
 
 def main():
-
     arg = args()
     schema = Schema(name=TEXT(stored=True), id=ID(stored=True))
     index_dir = arg.index_dir
