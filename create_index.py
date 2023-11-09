@@ -1,18 +1,29 @@
 import os
 import csv
+import re
 from whoosh.index import create_in
 from whoosh.fields import TEXT, ID, Schema
 from whoosh.qparser import QueryParser
+# from whoosh.analysis import Filter
 import argparse
+
 
 
 def args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("csv_file", help="path to csv file")
-    parser.add_argument("index_dir", help="path to index directory")
+    parser.add_argument("-c", "--csv_file", help="path to csv file")
+    parser.add_argument("-i", "--index_dir", help="path to index directory")
     args = parser.parse_args()
     return args
 
+
+def preprocess(text):
+    # remove thhe spaces and punctutaions
+    # print(text)
+    text = re.sub(r'\s+', '', text)
+    text = re.sub(r'[^\w\s]', '', text)
+    # print(text + "\n")
+    return text
 
 def add_documents_to_index(index, csv_file):
     # Open the index writer
@@ -22,7 +33,7 @@ def add_documents_to_index(index, csv_file):
     with open(csv_file, "r", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            writer.add_document(name=row["Name"], id=row["ID"])
+            writer.add_document(name=preprocess(row["Name"]), id=row["ID"])
 
     # Commit the changes to the index
     writer.commit()

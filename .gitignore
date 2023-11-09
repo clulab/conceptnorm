@@ -162,3 +162,5 @@ cython_debug/
 # index dir
 chemicals_index2014/
 n_gram_chemicals_index2014/
+no_space/
+results/

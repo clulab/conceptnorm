@@ -1,4 +1,4 @@
-import os, csv
+import os, csv, re
 from whoosh.fields import Schema, TEXT, ID
 from whoosh.index import create_in, open_dir
 from whoosh.query import FuzzyTerm
@@ -11,6 +11,7 @@ import argparse
 def args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--create_index", type=bool)
+    parser.add_argument("--preprocess", type=bool)
     parser.add_argument("--search_chemical", type=bool)
     parser.add_argument("--chem_name", type=str)
     args = parser.parse_args()
@@ -36,11 +37,24 @@ removing spaces, punctutaions, ...
 check the correct matches too (sanity check).
 recall instead of match or not: if it is in top n list
 n_gram_index_  rre-un it and add an extrta field to the schema for n-gram
+extract_.. .py from the ipynb file. But try to use for CDR and mesh both. Will discuss then.
 """
+
+def preprocess(text):
+    # remove thhe spaces and punctutaions
+    # print(text)
+    text = re.sub(r'\s+', '', text)
+    text = re.sub(r'[^\w\s]', '', text)
+    # print(text + "\n")
+    return text
 
 def main():
 
-    index_dir = "./n_gram_chemicals_index2014"
+    if arg.preprocess:
+        index_dir = "./no_space/n_gram_chemicals_index2014"
+    else:
+        index_dir = "./n_gram_chemicals_index2014"
+        
     arg = args()
 
     if arg.create_index:
@@ -62,7 +76,10 @@ def main():
         with open(csv_file, "r", encoding="utf-8") as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                writer.add_document(name=row["Name"], id=row["ID"])
+                if arg.remove_spaces:
+                    writer.add_document(name=preprocess(row["Name"]), id=row["ID"])
+                else:
+                    writer.add_document(name=row["Name"], id=row["ID"])
 
         # Commit the changes to the index
         writer.commit()

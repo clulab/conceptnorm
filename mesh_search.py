@@ -11,11 +11,15 @@ incorrect_matches = [] # returned matches, but the first one is not correct
 
 def args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--index_dir", help="path to index directory", default="./chemicals_index2014")
-    parser.add_argument("-ngi", "--n_gram_index_dir", help="path to index directory", default="./n_gram_chemicals_index2014")
-    parser.add_argument("-a", "--annotation_file", help="path to annotation file", default="./chemical_annotations.csv")
-    parser.add_argument("-d", "--details_output_file", help="path to details.txt output file", required=True, type=str)
-    parser.add_argument("-x", "--excel_output_file", help="path to excel output file", required=True, type=str)
+    parser.add_argument("-i", "--index_dir", help="path to index directory", default="chemicals_index2014")
+    parser.add_argument("-ngi", "--n_gram_index_dir", help="path to index directory", default="n_gram_chemicals_index2014")
+    parser.add_argument("-i_nospace", "--no_space_index_dir", help="path to index directory", default="no_space/chemicals_index2014")
+    parser.add_argument("-ngi_nospace", "--no_space_n_gram_index_dir", help="path to index directory", default="no_space/n_gram_chemicals_index2014")
+    parser.add_argument("-a", "--annotation_file", help="path to annotation file", default="chemical_annotations.csv")
+    parser.add_argument("-d", "--details_output_file", help="path to details.txt output file", type=str, default="results/chemical_matches_details2014.txt")
+    parser.add_argument("-x", "--excel_output_file", help="path to excel output file", type=str, default="results/chemical_matches2014.xlsx")
+    parser.add_argument("-ns", "--no_space", help="if want to include no_space too", type=bool, default=False)
+
     args = parser.parse_args()
     return args
 
@@ -52,10 +56,13 @@ def check_cand_id(chemical_name, chemical_id, matches):
     incorrect = False
     correct_index = -1
 
+    top20_matches = [m[1] for m in matches[:20]]
+
     if chemical_id == '-1':
         wrong = True
 
-    elif chemical_id != matches[0][1]:
+    # checking if token is in top20
+    elif chemical_id not in top20_matches:  # elif chemical_id != matches[0][1]:
         correct_index = check_match(matches, chemical_id)
 
         if correct_index == -1:
@@ -65,18 +72,23 @@ def check_cand_id(chemical_name, chemical_id, matches):
 
     return wrong, incorrect, correct_index
 
+def calculate_recall():
+    pass
+
 def main():
 
     arg = args()
     index = open_dir(arg.index_dir)
     n_gram_index_dir = open_dir(arg.n_gram_index_dir)
+    no_space_index_dir = open_dir(arg.no_space_index_dir)
+    no_space_n_gram_index_dir = open_dir(arg.no_space_n_gram_index_dir)
+
     df = pd.read_csv(arg.annotation_file)
 
     # filter df to remove repeated chemicals
     df = df.drop_duplicates(subset=['Name', 'ID'])
 
     count = 0
-    print("total i: ", len(df))
     for i, row in df.iterrows():
         if i%100==0:print(i)
 
@@ -94,8 +106,16 @@ def main():
                             index,
                             chemical_name,
                             fuzzy=True,
-                            fuzzy_distance=2,
+                            fuzzy_distance=1,
         )
+
+        if arg.no_space:
+            no_space_fuzzy_matches = search_chemical(
+                                no_space_index_dir,
+                                chemical_name,
+                                fuzzy=True,
+                                fuzzy_distance=1,
+            )
 
         # candidate N-Gram matching
         n_gram_matches = search_chemical(
@@ -104,7 +124,19 @@ def main():
                             limit=20,
         )
 
+        if arg.no_space:
+            no_space_n_gram_matches = search_chemical(
+                                no_space_n_gram_index_dir,
+                                chemical_name,
+                                limit=20,
+            )
+
         if matches:
+            """
+            For all matches, we will concentrate on the top 20.
+            If the match is in top 20, we will consider it as
+            success.
+            """
             # normal match
             wrong, incorrect, correct_index = check_cand_id(chemical_name, chemical_id, matches)
 
@@ -117,6 +149,17 @@ def main():
             if incorrect or wrong:
                 if n_gram_matches:
                     wrong, incorrect, correct_index = check_cand_id(chemical_name, chemical_id, n_gram_matches)
+
+            if arg.no_space:
+                # if still incorrect and wrong are there, the go for fuzzy match but with no space
+                if incorrect or wrong:
+                    if no_space_fuzzy_matches:
+                        wrong, incorrect, correct_index = check_cand_id(chemical_name, chemical_id, no_space_fuzzy_matches)
+
+                # if still incorrect and wrong are there, the go for candidate n-gram with no space
+                if incorrect or wrong:
+                    if no_space_n_gram_matches:
+                        wrong, incorrect, correct_index = check_cand_id(chemical_name, chemical_id, no_space_n_gram_matches)
 
             if wrong:
                 wrong_matches.append(((chemical_name, chemical_id), matches[0]))
