@@ -106,7 +106,7 @@ def main():
                             index,
                             chemical_name,
                             fuzzy=True,
-                            fuzzy_distance=1,
+                            fuzzy_distance=2,
         )
 
         if arg.no_space:
@@ -114,7 +114,7 @@ def main():
                                 no_space_index_dir,
                                 chemical_name,
                                 fuzzy=True,
-                                fuzzy_distance=1,
+                                fuzzy_distance=2,
             )
 
         # candidate N-Gram matching

@@ -1,7 +1,7 @@
 Number of incorrect matches: 0
-Number of wrong matches: 129
-Number of no matches: 0
-Number of correct matches: 1083
+Number of wrong matches: 127
+Number of no matches: 68
+Number of correct matches: 1017
 
 Incorrect Matches:
 
@@ -12,10 +12,10 @@ Li/D008094 --> LI-F03a/C106437
 aluminium/-1 --> calcium aluminium phosphate/C088064
 CAA/C004656 --> Caa/C564321
 Angiotension II/D000804 --> 4-Phe-angiotension II/C097744
+PO2/C093415 --> (T(PS2)T(PO2))7T/C406744
 CBZ/D002220 --> CBZ-diol/C004822
 GSH/D005978 --> S-Nitroso-GSH/D026422
 pentose phosphate/D010428 --> Pentose Phosphate Pathway/D010427
-triazolo/D014229 --> 1,2,4-triazolo(4,3-a)quinoxaline/C469661
 DES/D004054 --> 3,3'-DES/C028517
 PAN/D011692 --> Pan Quimica/D000493
 TMP/D014294 --> TMP/D013938
@@ -44,8 +44,6 @@ AX/D000658 --> AX 300/C029349
 PG/D010400 --> PG(6)E/C117159
 AMP/D000667 --> AMP/D000249
 BPO/-1 --> BPO-BGG/C081938
-heparan sulphate/D006497 --> heparan sulphate endoglycosidase/C038253
-Heparan sulphate/D006497 --> heparan sulphate endoglycosidase/C038253
 NG/D008466 --> Ng-CAM/D019062
 MTX/D008727 --> MTX-F/C036539
 CY/D003520 --> CY-CY COMPLEX/C031949
@@ -63,6 +61,7 @@ organophosphorus/D010755 --> Organophosphorus Compounds/D009943
 OP/D010755 --> Fluor-Op/D005469
 OPs/D010755 --> 20-OPS cpd/C508346
 pralidoxime-2-chloride/D011220 --> pralidoxime chloride/C028797
+2PAM/D011220 --> DEP-2PAM/C120291
 N(6)-cyclopentyl adenosine/C048599 --> 2-(3-cyclopentyl-1-propyn-1-yl)adenosine/C075256
 CPA/C048599 --> d(CpA)/C093708
 TCR/C007145 --> TcR Genes/D019672
@@ -85,13 +84,12 @@ PHNO/-1 --> 11C-PHNO/C042631
 PPA/D010665 --> PPA Syndrome/D057178
 ADR/D004317 --> ADR-529/D064730
 CCl4/D002251 --> Poisoning, CCl4/D002252
-trifluoroacetyl/D014269 --> trifluoroacetyl-L-phenylalanine/C015556
-Trifluoroacetyl/D014269 --> trifluoroacetyl-L-phenylalanine/C015556
 TAM/D013629 --> 2'-(FP)-TAM/C500289
 alpha-T/D024502 --> alpha,alpha,alpha-trifluorotoluene/C513519
+amine/D000588 --> 2,4-D amine/C037991
+AAP/D000082 --> 9-AAP/C013398
 AMI/D000638 --> AMI-mixture/C038592
 DA/D004298 --> 3'-F-dA/C062976
-contrast medium/D003287 --> contrast medium SBPA/C427127
 na/D012964 --> NA-5/C043348
 Srl/D020123 --> SRL 172/C451081
 ARB/D057911 --> E-D-Glu-L-Arb/C435345
@@ -139,4 +137,72 @@ DA/D018491 --> 3'-F-dA/C062976
 
 
 No Matches:
+hexafluorodiethyl ether/D005481
+Actomycin-D/D003609
+N-[4-(5-nitro-2-furyl)-2-thiazolyl]-formamide/D005200
+uric acid salts/D014527|D012492
+gamma-carboxylated/D015055
+5-hydroxytriptamine/D012701
+Antituberculosis/D000995
+neurotensin type-1 receptor antagonist/C079087
+sodium pentothal/D013874
+3alpha-tropyl 2-(p-bromophenyl)propionate/C087567
+angiotensin-converting enzyme (ACE) inhibitor/D000806
+Serotonergic antidepressants/D018490
+serotonergic antidepressants/D018490
+tincture of Crataegus/C007145
+Tincture of Crataegus/C007145
+alcoholic extract of the berries of hawthorn/C007145
+Crataegus oxycantha/C007145
+extract of Daucus carota seeds/D010936
+Daucus carota extract/D010936
+estradiol- and testosterone esters/C032109
+pegylated interferon (IFN) alpha-2b/C417083
+pegylated IFN alpha-2b/C417083
+radiocalcium/D002132
+ifosfamide, vincristine, and dactinomycin/C064227
+N, N'-diisopropylphosphorodiamidofluoridate/C005238
+1-chloro-1,2,2,2-tetrafluoroethane/C072959
+1-bromo-1-chloro-2,2,2-trifluoroethane/D006221
+HCFCs 123 and 124/C067411|C072959
+HCFCs 123/C067411
+HCFCs 124/C072959
+angiotensin-releasing blocker/D057911
+N-pyrimidinyl-2-phenoxyacetamides/D010642
+N-pyrimidinyl-2-phenoxyacetamide/D010642
+simvastatin 10 mg-ezetimibe 40 mg/C492458
+Simvastatinezetimibe/C492458
+simvastatinezetimibe/C492458
+8-[(4-amino-l-methylbutyl)amino]- 5-(l-hexyloxy)-6-methoxy-4-methylquinoline/C068820
+combination of amoxicillin and clavulanic acid/D019980
+[3H]-5-azadeoxycytidine/C014347
+Tc99m-Sestamibi/D017256
+aponidine hydrochloride/C016986
+Mexitil-Perlongets/D008801
+desipramine HCl/D003891
+cinacalcet HCl/C476217
+angiotensin converting enzyme (ACE) inhibitors/D000806
+halogenated hydroxyquinolines/D006912
+gamma-HCH/D001556
+t-butyl bicyclo-orthobenzoate/C046308
+9-[[2-methoxy-4-[(methylsulphonyl)amino]phenyl]amino] -N,5-dimethyl- 4-acridinecarboxamide/C042315
+5 - [2- ( 4- ( 3 - fluorobenzylidene) piperidin-1-yl) ethyl] - 4 -(4-fluorophenyl) thiazole-2-carboxamide/C121249
+5,5-dimethyl-3-(3-fluorophenyl)-4-(4-methylsulphonyl) phenyl-2(5H)-furanon/C106876
+2-chloroprocaine-CE/C004616
+L-alpha-glyceryl-phosphorylcholine/D005997
+L-alpha-GFC/D005997
+3SR,4aRS,6SR,8aRS-6-[phosphonomethyl]decahydr oisoquinoline-3- carboxylic acid/C070935
+[3H]-l-arginine/D001120
+[3H]-L-arginine/D001120
+des Arg10 HOE 140/C078665
+des-Arg10HOE 140/C078665
+pegylated interferon alpha 2a/C100416
+3 alpha-tropyl 2-(p-bromophenyl)propionate/C087567
+3-aminopropyl-diethoxy-methyl-phosphinic acid/C066430
+5-hydroxytryptamine4/D012701
+5-hydroxytryptamin1A/D012701
+p-choloroaniline/C004658
+propylthio- uracil/D011441
+p-chlorophenylalamine/D010134
+organophosphorus (OP) poisons/D009943
 
