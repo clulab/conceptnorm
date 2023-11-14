@@ -78,6 +78,7 @@ def calculate_recall():
 def main():
 
     arg = args()
+    print(arg)
     index = open_dir(arg.index_dir)
     n_gram_index_dir = open_dir(arg.n_gram_index_dir)
     no_space_index_dir = open_dir(arg.no_space_index_dir)
