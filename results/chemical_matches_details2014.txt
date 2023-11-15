@@ -1,7 +1,7 @@
 Number of incorrect matches: 0
-Number of wrong matches: 127
+Number of wrong matches: 120
 Number of no matches: 68
-Number of correct matches: 1017
+Number of correct matches: 1024
 
 Incorrect Matches:
 
@@ -12,7 +12,6 @@ Li/D008094 --> LI-F03a/C106437
 aluminium/-1 --> calcium aluminium phosphate/C088064
 CAA/C004656 --> Caa/C564321
 Angiotension II/D000804 --> 4-Phe-angiotension II/C097744
-PO2/C093415 --> (T(PS2)T(PO2))7T/C406744
 CBZ/D002220 --> CBZ-diol/C004822
 GSH/D005978 --> S-Nitroso-GSH/D026422
 pentose phosphate/D010428 --> Pentose Phosphate Pathway/D010427
@@ -28,7 +27,6 @@ GEM/C056507 --> gem-dihalovinylaniline/C527428
 vitamin D/D014807 --> vitamin A - vitamin E/C048974
 vitamin K/D014812 --> vitamin A - vitamin E/C048974
 LA/D019344 --> C-LA(n)/C464654
-oral-contraceptive/D003276 --> Pearl Oral Contraceptive/D019304
 NO/D009569 --> NO-1-B/C405005
 urotensin-II/D014579 --> urotensin II/C029677
 Urotensin-II/D014579 --> urotensin II/C029677
@@ -39,7 +37,6 @@ H2O/D014867 --> KCoPWO-H2O/C087353
 SNP/D009599 --> SNP nonapeptide/C063820
 Hg/D008628 --> HG-Factor/D005934
 ZDV/D015215 --> ZDV-CDS/C056534
-beta-lactam/D047090 --> beta-Lactam Resistance/D018440
 AX/D000658 --> AX 300/C029349
 PG/D010400 --> PG(6)E/C117159
 AMP/D000667 --> AMP/D000249
@@ -61,7 +58,6 @@ organophosphorus/D010755 --> Organophosphorus Compounds/D009943
 OP/D010755 --> Fluor-Op/D005469
 OPs/D010755 --> 20-OPS cpd/C508346
 pralidoxime-2-chloride/D011220 --> pralidoxime chloride/C028797
-2PAM/D011220 --> DEP-2PAM/C120291
 N(6)-cyclopentyl adenosine/C048599 --> 2-(3-cyclopentyl-1-propyn-1-yl)adenosine/C075256
 CPA/C048599 --> d(CpA)/C093708
 TCR/C007145 --> TcR Genes/D019672
@@ -86,8 +82,6 @@ ADR/D004317 --> ADR-529/D064730
 CCl4/D002251 --> Poisoning, CCl4/D002252
 TAM/D013629 --> 2'-(FP)-TAM/C500289
 alpha-T/D024502 --> alpha,alpha,alpha-trifluorotoluene/C513519
-amine/D000588 --> 2,4-D amine/C037991
-AAP/D000082 --> 9-AAP/C013398
 AMI/D000638 --> AMI-mixture/C038592
 DA/D004298 --> 3'-F-dA/C062976
 na/D012964 --> NA-5/C043348
@@ -124,7 +118,6 @@ Cr/D002857 --> CR 6/C120400
 UDCA/D014580 --> UDCA-NAGA/C060582
 CaCl(2)/D002122 --> CACL protein, human/C478391
 PAC/D017239 --> 1-PAC/C054549
-glutamine/D018698 --> Glutamine/D005973
 E2/D004958 --> E2-3,4-Q/C500988
 CO2/D002245 --> Lasers, CO2/D054020
 AraG/C104457 --> 9-araG-MP/C505040
