@@ -3,7 +3,7 @@ from whoosh.fields import Schema, TEXT, ID
 from whoosh.index import create_in, open_dir
 from whoosh.query import FuzzyTerm
 from whoosh.qparser import QueryParser
-from whoosh.analysis import NgramTokenizer
+from whoosh.analysis import NgramTokenizer, LowercaseFilter, RegexTokenizer
 from whoosh import scoring
 import argparse
 
@@ -30,36 +30,22 @@ def search_chemical(index, query_string):
 
         return matches
 
-
-"""
-NOTE:
-removing spaces, punctutaions, ...
-check the correct matches too (sanity check).
-recall instead of match or not: if it is in top n list
-n_gram_index_  rre-un it and add an extrta field to the schema for n-gram
-extract_.. .py from the ipynb file. But try to use for CDR and mesh both. Will discuss then.
-"""
-
-def preprocess(text):
-    # remove thhe spaces and punctutaions
-    # print(text)
-    text = re.sub(r'\s+', '', text)
-    text = re.sub(r'[^\w\s]', '', text)
-    # print(text + "\n")
-    return text
-
 def main():
 
     if arg.preprocess:
         index_dir = "./no_space/n_gram_chemicals_index2014"
     else:
         index_dir = "./n_gram_chemicals_index2014"
-        
+
     arg = args()
 
     if arg.create_index:
-        # Define the schema with NgramTokenizer
-        schema = Schema(name=TEXT(analyzer=NgramTokenizer(minsize=2, maxsize=5),stored=True),
+        # Define the schema with
+        # LowercaseFilter + RegexTokenizer to remove space and punctuations
+        # and finally NgramTokenizer
+        analyzers = RegexTokenizer(r"[^\w\d\s]") | LowercaseFilter() | NgramTokenizer(minsize=2, maxsize=5)
+
+        schema = Schema(name=TEXT(analyzer = analyzers, stored=True),
                         id=ID(stored=True))
 
         # Create the index
